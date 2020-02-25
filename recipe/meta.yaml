@@ -30,6 +30,8 @@ requirements:
 test:
   imports:
     - scisweeper
+  commands:
+    - pip check
 
 about:
   home: https://github.com/scisweeper/scisweeper
