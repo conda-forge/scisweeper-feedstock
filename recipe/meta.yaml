@@ -20,6 +20,7 @@ requirements:
     - pip
   run:
     - python
+    - pip
     - numpy
     - pandas
     - pysqa >=0.0.3
@@ -30,6 +31,8 @@ requirements:
 test:
   imports:
     - scisweeper
+  commands:
+    - pip check
 
 about:
   home: https://github.com/scisweeper/scisweeper
